@@ -40,7 +40,7 @@ class CommentForm extends Component
 
         $this->content = '';
         session()->flash('success', 'Comment submitted successfully! It will appear after approval.');
-        
+
         $this->dispatch('comment-submitted');
     }
 
